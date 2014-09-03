@@ -1,8 +1,8 @@
 #Normalisation
 
-This is a personal project to document examples of database schemas in different normal forms. It is purely for my own interest and personal development so that I can become more proficient in designing scalable, transactional-oriented systems. 
+This is a personal project documenting examples of database schemas in different normal forms. It is purely for my own interest and personal development so that I can become more proficient in designing scalable, transaction-oriented systems. 
 
-I have also read various arguments for and against normalisation and would like to perform a test to determine which levels of normalisation suite different requirements. This project will ultimately be a personal reference point to decide when and how to structure my data.
+I have also read various arguments for and against normalisation and would like to perform tests to determine which levels of normalisation suit different requirements. I'm aiming for this project to also be a personal reference point to decide when and how to structure my data.
 
 ###Objectives and Requirements
 
