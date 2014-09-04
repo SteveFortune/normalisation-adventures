@@ -32,7 +32,7 @@ So for a given relation, every tuple represents a proposition.
 
 Finally a relvar's heading define's the _relvar predicate_ of the relvar
 
-#The Closed World Assumtion
+#The Closed World Assumption
 
 The closed world assumption presumes that what is currently know is true and what isn't known is false. 
 
