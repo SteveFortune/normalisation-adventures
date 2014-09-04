@@ -30,6 +30,7 @@ _This proposition is false because the predicate would return false for it, and 
 
 So for a given relation, every tuple represents a proposition. 
 
+Finally a relvar's heading define's the _relvar predicate_ of the relvar
 
 #The Closed World Assumtion
 
