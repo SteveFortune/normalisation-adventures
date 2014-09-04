@@ -24,4 +24,9 @@ Back to the `Thing` table, we have a data domain described by the columns: `name
 
 [This diagram](http://en.wikipedia.org/wiki/Relation_(database)#mediaviewer/File:Relational_database_terms.svg) was really helpful for me to visualise how these concepts apply to relational database design.
 
+
+###Relation Variables
+
+A relational variable is a relation that changes over time. E.g. in a database we have a `User` table. At time T1, there are rows in the `User` table (2 tuples in the `User` relation), however at time T2 more have been added (there are now 3 tuples in the `User` relation). `User` has a relation value but is a variable (relation variable).
+
   
