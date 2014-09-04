@@ -10,7 +10,7 @@ So…
 
 - `P` is the predicate function
 - `x` are the arugments of that function
-- Parameter that substitute `x` are the proposition.
+- Parameters that substitute `x` are the proposition.
 - The 'set' defined by the predicate (i.e. all the values of `x` for which `P(x)` is true) is denoted as `{x|P(x)}`
 
 
@@ -20,11 +20,11 @@ How does this relate to database design? We can take the attributes of a given r
 	
 Here the relvar `user` represents the above predicate. Here are some propositions for the predicate:
 
-_This proposition is represented by the predicate, so is true and thus the data described is a user_
+_The predicate would return true for this proposition and thus the data described is a user_
 
 	There is a user with the first_name of 'Ben', last_name of 'Wood', email_address of 'ben.wood@doglet.com', has an age of 19 and has a telephone number of '01453 833527'. 
 
-_This proposition is false because it is not represented by the predicate, and thus the data described is not a user_
+_This proposition is false because the predicate would return false for it, and thus the data described is not a user_
 
 	There is a user with the first_name of 'George', no last_name, no email_address and a telephone number of '1'. 
 
