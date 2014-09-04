@@ -29,4 +29,13 @@ Back to the `Thing` table, we have a data domain described by the columns: `name
 
 A relational variable is a relation that changes over time. E.g. in a database we have a `User` table. At time T1, there are rows in the `User` table (2 tuples in the `User` relation), however at time T2 more have been added (there are now 3 tuples in the `User` relation). `User` has a relation value but is a variable (relation variable).
 
-  
+###Body and Heading
+
+A relation's _body_ contains the relation's set of tuples and the relation's _heading_ contains a set of attributes that the tuples conform to. The number of attributes in a _heading_ is its _degree_ and the number of tuples in a _body_ is its _cardinality_.
+
+A _degree_ of a _heading_ can be a nonnegative integer:
+
+- Degree 1: unary
+- Degree 2: binary
+- Degree 3: ternary
+- Degree n: n-ary
