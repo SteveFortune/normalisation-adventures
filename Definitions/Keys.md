@@ -41,3 +41,13 @@ This example demonstrates a relation with 1 candidate key. The candidate key is 
 #Primary Key
 
 The primary key is a candidate key that's been singled out and treated specially. Usually, if a relation has one candiate key then its designated as the primary key. If the relation has multiple candidate keys, the decision as to which one is the primary key based on which ever makes sense to the designer (one could argue that this decision is essentially arbirary).
+
+
+#Composite and Simple Keys
+
+If a key is a set of 2 or more attributes then it is said to be 'composite'. A key that consists of only 1 attribute may be refered to as 'simple'.
+
+
+#Foreign Key
+
+A set of attributes in a relation that are required to be equal to a key in another relation.
