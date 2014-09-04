@@ -33,13 +33,28 @@ So for a given relation, every tuple represents a proposition.
 
 #The Closed World Assumtion
 
-A given relvar at any given time contains only the tuples that that represent true propositions.
+The closed world assumption presumes that what is currently know is true and what isn't known is false. 
 
-__TODO__ Elaborate
+Therefore a given relvar at any given time contains only the tuples that represent true propositions. For example, take a give relation for cups:
 
+__Predicate__: A _cup_ has a _name_, is made of a _material_ and contains a _fluid_.
+__Propositions__:
+
+- A cup has a name _tea_cup_ is made of _ceramic_ and contains _tea_
+- A cup has a name _glass_ is made of _glass_ and contains _water_
+- A cup has a name _mug_ is made of _ceramic_ and contains _coffee_
+
+So we have the following relation `cup(name, material, fluid)`, containing the following tuples: `(tea_cup, ceramic, tea), (glass, glass, water), (mug, ceramic, coffee)`
+
+If we wanted to query this relation to ask whether there are any `cup`s with the name of _mug_ that is made of _metal_ and contains _tea_, by the closed world principal we would get the answer 'no'. 
+
+I.e. if we invoked the predicate for _cup_ with the proposition of a _cup_ with the name of _mug_ that is made of _metal_ and contains _tea_, we would get 'false'.
+
+By the 'open world assumption' we would get the answer "I don't know". None of the tuples in the relation match that particular proposition and because we can't constraint the query to only we what we know, the result is unknown.
 
 
 The following sources are helpful:
 
 - http://yhcss.com/books/database_in_depth/databaseid-CHP-4-SECT-5.html
 - http://en.wikipedia.org/wiki/Predicate_(mathematical_logic), 'Simplified Overview'
+- http://en.wikipedia.org/wiki/Closed-world_assumption, 'Example'
