@@ -51,3 +51,8 @@ If a key is a set of 2 or more attributes then it is said to be 'composite'. A k
 #Foreign Key
 
 A set of attributes in a relation that are required to be equal to a key in another relation.
+
+
+#Key Constraint
+
+I found it helpful to go over the actual definition of a _key constraint_. A _key constraint_ is a constraint emposed by a candidate key such that no 2 tuples in a relation may have the same value for that key.
