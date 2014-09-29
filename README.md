@@ -33,6 +33,10 @@ Benchmarks should measure:
 - DB load testing
 - Reports on the amount of anomylous and redundant data there is in the database
 
+####ACID
+
+I am also interested in implementing a database that supports fully ACID transactions, using offline transactions. When I finish the normalisation examples I want to progress doing some proof of concept around examples of this.
+
 ###Stack
 
 - I have not decided what kind of stack I will be using yet for these examples.
