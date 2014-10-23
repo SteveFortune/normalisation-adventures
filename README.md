@@ -10,7 +10,7 @@ I have also read various arguments for and against normalisation and would like 
 
 First I want to cover all the normal forms:
 
-- 1NF schema & performance benchmarks by Oct 2014
+- <s>1NF schema & performance benchmarks by Oct 2014</s> As I've learned, a
 - 2NF schema & performance benchmarks by Oct 2014
 - 3NF schema & performance benchmarks by Oct 2014
 - BCNF schema & performance benchmarks by Oct 2014
