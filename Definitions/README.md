@@ -4,6 +4,8 @@ This directory will act as a sort-of appendix for various definitions that I com
 
 The docs are numbered in the order that I learnt the different concepts.
 
+Note that references to 'if' should be understood to mean 'if and only if'.
+
 __MITIGATION__
 
 - I'm still learning this stuff, so this information may be inaccurate, simplified, or just wrong. 
