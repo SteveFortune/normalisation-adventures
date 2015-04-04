@@ -8,13 +8,13 @@ This is a personal project documenting examples of database schemas in different
 
 First I want to cover all the normal forms:
 
-- <s>1NF schema & performance benchmarks by Oct 2014</s>
-- 2NF schema & performance benchmarks by Oct 2014
-- 3NF schema & performance benchmarks by Oct 2014
-- BCNF schema & performance benchmarks by Oct 2014
-- 4NF schema & performance benchmarks by Nov 2014
-- 5NF schema & performance benchmarks by Nov 2014
-- 6NF schema & performance benchmarks by Dec 2014
+- <s>1NF schema & performance benchmarks</s>
+- 2NF schema & performance benchmarks
+- 3NF schema & performance benchmarks
+- BCNF schema & performance benchmarks
+- 4NF schema & performance benchmarks
+- 5NF schema & performance benchmarks
+- 6NF schema & performance benchmarks
 
 ####Denormalised and 'Un-normalised' Comparisons
 
